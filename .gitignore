@@ -1,0 +1,8 @@
+# ignore all .log files
+*.log
+
+# ignore all files in any directory named temp
+temp/
+
+# ignore all node files 
+node_modules

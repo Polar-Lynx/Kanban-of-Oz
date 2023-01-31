@@ -1,0 +1,15 @@
+{
+  "name": "kanban-of-oz",
+  "version": "1.0.0",
+  "description": "This application is a Express server that will support my Kanban Board application.",
+  "main": "kanban.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oussama Zaoui",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "type": "module"
+}
