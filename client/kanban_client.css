@@ -10,7 +10,7 @@ Description: This file contains the style sheet information
 
 
 body {
-    background-image: url('../client/Resources/Images/kanban.jpg');
+    background-image: url('/resources/Images/kanban.jpg');
 }
 
 .dropdown {

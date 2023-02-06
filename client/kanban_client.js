@@ -78,6 +78,8 @@ const createHomepage = () => {
             
             // creates the task selection
             submitUserID(name);
+
+            document.body.appendChild(createDropdownMenu());
         }
     }
 
@@ -171,7 +173,7 @@ const createDropdownMenu = () => {
 
 
 /*
-* FUNCTION : submitUserID
+* FUNCTION      : submitUserID
 * DESCRIPTION   : creates a form that submits the user's name
 * PARAMETERS    : userName : the previously validated user name
 * RETURNS       : nothing
@@ -185,6 +187,9 @@ const submitUserID = async (userID) => {
 
     await fetch("/login", {
         method: "POST",
+        headers: {
+            'Content-Type': 'application/json'
+        },
         body: JSON.stringify(body)
     });
 };
