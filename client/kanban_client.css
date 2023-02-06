@@ -1,0 +1,68 @@
+/*
+File Name:   kanban_client.css
+Project:     Kanban of Oz
+Authors:     Oussama Zaoui, 8807150
+Date:        January 31, 2023
+Description: This file contains the style sheet information
+             for the online Kanban client.
+*/
+
+
+
+body {
+    background-image: url('../client/Resources/Images/kanban.jpg');
+}
+
+.dropdown {
+    font-size: 20px;
+}
+
+.error-text {
+    display: block;
+    color: red;
+    font-size: 20px;
+}
+
+#fullName {
+    font-size: 20px
+}
+
+.welcome {
+    color:rgb(35, 207, 92);
+    font-size:xx-large;
+    font-weight: bold;
+}
+
+#clientName {
+    color: rgb(237, 166, 100);
+    font-size: 75px;
+}
+
+.prompt {
+    color:rgb(234, 80, 200);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.submitButton {
+    width: 130px;
+    color: forestgreen;
+    border: 2px solid #0e9236;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.newUserButton {
+    width: 130px;
+    color: rgb(139, 34, 34);
+    border: 2px solid #0e9236;
+    border-radius: 15px;
+    font-size: 20px;
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+}
+
+.invisible {
+    display:none;
+}
